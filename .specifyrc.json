@@ -21,7 +21,7 @@
             "filePath": "output/base-theme.css"
           },
           "options": {
-            "tokenNameTemplate": "--{{token}}",
+            "tokenNameTemplate": "--{{groups}}-{{token}}",
             "selectorTemplate": ".{{mode}}",
             "includeCoreTokensInScopes": false
           }
