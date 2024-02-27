@@ -13,14 +13,12 @@
             "type": "file",
             "filePath": "output/tokens.json"
           }
-        }
-      ]
-    },
-    {
+        },
+        {
           "name": "to-css-custom-properties",
           "output": {
             "type": "file",
-            "filePath": "generated/theme.css"
+            "filePath": "output/base-theme.css"
           },
           "options": {
             "tokenNameTemplate": "--{{groups}}-{{token}}",
@@ -28,5 +26,7 @@
             "includeCoreTokensInScopes": false
           }
       }
+      ]
+    },
   ]
 }
