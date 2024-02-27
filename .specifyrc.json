@@ -15,6 +15,18 @@
           }
         }
       ]
-    }
+    },
+    {
+          "name": "to-css-custom-properties",
+          "output": {
+            "type": "file",
+            "filePath": "foundations/generated/specifyapp/bolt-styles.css"
+          },
+          "options": {
+            "tokenNameTemplate": "--{{groups}}-{{token}}",
+            "selectorTemplate": ".{{mode}}",
+            "includeCoreTokensInScopes": false
+          }
+      }
   ]
 }
