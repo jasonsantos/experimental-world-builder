@@ -20,7 +20,7 @@
           "name": "to-css-custom-properties",
           "output": {
             "type": "file",
-            "filePath": "foundations/generated/specifyapp/bolt-styles.css"
+            "filePath": "generated/theme.css"
           },
           "options": {
             "tokenNameTemplate": "--{{groups}}-{{token}}",
