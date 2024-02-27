@@ -1,0 +1,171 @@
+.Mode-1 {
+  --500: rgb(197, 153, 0);
+  --black: rgb(0, 0, 0);
+  --500: rgb(255, 0, 0);
+  --white: rgb(255, 255, 255);
+  --lg: 8px;
+  --md: 4px;
+  --none: 0px;
+  --sm: 2px;
+}
+.Saddles {
+  --neutral: var(--black);
+  --primary: var(--500);
+  --secondary: var(--black);
+}
+.Photostop {
+  --neutral: var(--black);
+  --primary: var(--500);
+  --secondary: var(--white);
+}
+.dark {
+  --background: var(--secondary);
+  --foreground: var(--primary);
+  --active: var(--secondary);
+  --default: var(--primary);
+}
+.light {
+  --background: var(--primary);
+  --foreground: var(--secondary);
+  --active: var(--neutral);
+  --default: var(--neutral);
+}
+.mobile {
+  --unit: var(--sm);
+  --lg: var(--md);
+  --sm: var(--sm);
+}
+.desktop {
+  --unit: var(--md);
+  --lg: var(--lg);
+  --sm: var(--md);
+}
+:root {
+  --core-core-font-large-font-style: normal;
+  --core-core-font-large-font-family: "";
+  --core-core-font-large-font-weight: regular;
+  --core-core-font-large-font-size: 24px;
+  --core-core-font-large-line-height: 100%;
+  --brand-prolink-brand-font-label-lg-font-style: var(
+    --core-core-font-large-font-style
+  );
+  --brand-prolink-brand-font-label-lg-font-family: var(
+    --core-core-font-large-font-family
+  );
+  --brand-prolink-brand-font-label-lg-font-weight: var(
+    --core-core-font-large-font-weight
+  );
+  --brand-prolink-brand-font-label-lg-font-size: var(
+    --core-core-font-large-font-size
+  );
+  --brand-prolink-brand-font-label-lg-line-height: var(
+    --core-core-font-large-line-height
+  );
+  --core-core-font-base-font-style: normal;
+  --core-core-font-base-font-family: "";
+  --core-core-font-base-font-weight: regular;
+  --core-core-font-base-font-size: 16px;
+  --core-core-font-base-line-height: 100%;
+  --brand-prolink-brand-font-label-md-font-style: var(
+    --core-core-font-base-font-style
+  );
+  --brand-prolink-brand-font-label-md-font-family: var(
+    --core-core-font-base-font-family
+  );
+  --brand-prolink-brand-font-label-md-font-weight: var(
+    --core-core-font-base-font-weight
+  );
+  --brand-prolink-brand-font-label-md-font-size: var(
+    --core-core-font-base-font-size
+  );
+  --brand-prolink-brand-font-label-md-line-height: var(
+    --core-core-font-base-line-height
+  );
+  --core-core-font-small-font-style: normal;
+  --core-core-font-small-font-family: "";
+  --core-core-font-small-font-weight: regular;
+  --core-core-font-small-font-size: 14px;
+  --core-core-font-small-line-height: 100%;
+  --brand-prolink-brand-font-label-sm-font-style: var(
+    --core-core-font-small-font-style
+  );
+  --brand-prolink-brand-font-label-sm-font-family: var(
+    --core-core-font-small-font-family
+  );
+  --brand-prolink-brand-font-label-sm-font-weight: var(
+    --core-core-font-small-font-weight
+  );
+  --brand-prolink-brand-font-label-sm-font-size: var(
+    --core-core-font-small-font-size
+  );
+  --brand-prolink-brand-font-label-sm-line-height: var(
+    --core-core-font-small-line-height
+  );
+  --breakpoint-lg-typography-label-font-style: var(
+    --brand-prolink-brand-font-label-lg-font-style
+  );
+  --breakpoint-lg-typography-label-font-family: var(
+    --brand-prolink-brand-font-label-lg-font-family
+  );
+  --breakpoint-lg-typography-label-font-weight: var(
+    --brand-prolink-brand-font-label-lg-font-weight
+  );
+  --breakpoint-lg-typography-label-font-size: var(
+    --brand-prolink-brand-font-label-lg-font-size
+  );
+  --breakpoint-lg-typography-label-line-height: var(
+    --brand-prolink-brand-font-label-lg-line-height
+  );
+  --breakpoint-md-typography-label-font-style: var(
+    --brand-prolink-brand-font-label-md-font-style
+  );
+  --breakpoint-md-typography-label-font-family: var(
+    --brand-prolink-brand-font-label-md-font-family
+  );
+  --breakpoint-md-typography-label-font-weight: var(
+    --brand-prolink-brand-font-label-md-font-weight
+  );
+  --breakpoint-md-typography-label-font-size: var(
+    --brand-prolink-brand-font-label-md-font-size
+  );
+  --breakpoint-md-typography-label-line-height: var(
+    --brand-prolink-brand-font-label-md-line-height
+  );
+  --breakpoint-sm-typography-label-font-style: var(
+    --brand-prolink-brand-font-label-sm-font-style
+  );
+  --breakpoint-sm-typography-label-font-family: var(
+    --brand-prolink-brand-font-label-sm-font-family
+  );
+  --breakpoint-sm-typography-label-font-weight: var(
+    --brand-prolink-brand-font-label-sm-font-weight
+  );
+  --breakpoint-sm-typography-label-font-size: var(
+    --brand-prolink-brand-font-label-sm-font-size
+  );
+  --breakpoint-sm-typography-label-line-height: var(
+    --brand-prolink-brand-font-label-sm-line-height
+  );
+  --semantic-bolt-text-fuild-default-font-style: var(
+    --breakpoint-lg-typography-label-font-style
+  );
+  --semantic-bolt-text-fuild-default-font-family: var(
+    --breakpoint-lg-typography-label-font-family
+  );
+  --semantic-bolt-text-fuild-default-font-weight: var(
+    --breakpoint-lg-typography-label-font-weight
+  );
+  --semantic-bolt-text-fuild-default-font-size: var(
+    --breakpoint-lg-typography-label-font-size
+  );
+  --semantic-bolt-text-fuild-default-line-height: var(
+    --breakpoint-lg-typography-label-line-height
+  );
+}
+.Default {
+  --active: var(--foreground);
+  --default: var(--background);
+  --hover: var(--foreground);
+  --horizontal: var(--lg);
+  --vertical: var(--sm);
+}
