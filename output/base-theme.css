@@ -1,0 +1,502 @@
+.Mode-1 {
+  --color-amber-500: rgb(197, 153, 0);
+  --color-black: rgb(0, 0, 0);
+  --color-red-500: rgb(255, 0, 0);
+  --color-white: rgb(255, 255, 255);
+  --spacing-lg: 8px;
+  --spacing-md: 4px;
+  --spacing-none: 0px;
+  --spacing-sm: 2px;
+}
+.Saddles {
+  --brand-neutral: var(--color-black);
+  --brand-primary: var(--color-amber-500);
+  --brand-secondary: var(--color-black);
+}
+.Photostop {
+  --brand-neutral: var(--color-black);
+  --brand-primary: var(--color-red-500);
+  --brand-secondary: var(--color-white);
+}
+.dark {
+  --mode-color-surface-background: var(--brand-secondary);
+  --mode-color-surface-foreground: var(--brand-primary);
+  --mode-color-text-active: var(--brand-secondary);
+  --mode-color-text-default: var(--brand-primary);
+}
+.light {
+  --mode-color-surface-background: var(--brand-primary);
+  --mode-color-surface-foreground: var(--brand-secondary);
+  --mode-color-text-active: var(--brand-neutral);
+  --mode-color-text-default: var(--brand-neutral);
+}
+.mobile {
+  --breakpoint-base-unit: var(--spacing-sm);
+  --breakpoint-margins-lg: var(--spacing-md);
+  --breakpoint-margins-sm: var(--spacing-sm);
+}
+.desktop {
+  --breakpoint-base-unit: var(--spacing-md);
+  --breakpoint-margins-lg: var(--spacing-lg);
+  --breakpoint-margins-sm: var(--spacing-md);
+}
+:root {
+  --core-fontWeights-medium: medium;
+  --core-fontSize-3: 16px;
+  --core-lineHeights-100: 100%;
+  --core-letterSpacing-none: 0%;
+  --core-paragraphSpacing-none: 0px;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-font-weight: var(
+    --core-fontWeights-medium
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-font-size: var(
+    --core-fontSize-3
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-lg-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-fontWeights-bold: bold;
+  --core-fontSize-2: 14px;
+  --core-lineHeights-150: 150%;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-line-height: var(
+    --core-lineHeights-150
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-bold-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-fontWeights-regular: regular;
+  --core-letterSpacing--1: -1%;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-height: var(
+    --core-lineHeights-150
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-letter-spacing: var(
+    --core-letterSpacing--1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-md-regular-line-text-decoration: var(
+    --core-textDecoration-line-through
+  );
+  --core-fontSize-4: 18px;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-font-size: var(
+    --core-fontSize-4
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xl-bold-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-fontSize-1: 12px;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-font-weight: var(
+    --core-fontWeights-medium
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-body-xs-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-font-size: var(
+    --core-fontSize-3
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-lg-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-letterSpacing-4: 4%;
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-letter-spacing: var(
+    --core-letterSpacing-4
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-heading-xxs-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-fontWeights-semi: semi-bold;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-font-weight: var(
+    --core-fontWeights-semi
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-lg-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-font-weight: var(
+    --core-fontWeights-medium
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-md-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-font-weight: var(
+    --core-fontWeights-medium
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-sm-regular-underline-text-decoration: var(
+    --core-textDecoration-underline
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-font-weight: var(
+    --core-fontWeights-semi
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-interactive-xs-semi-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-bold-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-md-regular-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-font-weight: var(
+    --core-fontWeights-semi
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-label-xs-semi-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-lineHeights-140: 140%;
+  --core-letterSpacing-1: 1%;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-font-size: var(
+    --core-fontSize-3
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-line-height: var(
+    --core-lineHeights-140
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-letter-spacing: var(
+    --core-letterSpacing-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-lg-regular-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --core-letterSpacing--5: -5%;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-line-height: var(
+    --core-lineHeights-140
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-letter-spacing: var(
+    --core-letterSpacing--5
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-regular-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-font-weight: var(
+    --core-fontWeights-semi
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-line-height: var(
+    --core-lineHeights-140
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-md-semi-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-font-weight: var(
+    --core-fontWeights-semi
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-letter-spacing: var(
+    --core-letterSpacing-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-plain-xs-semi-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-font-weight: var(
+    --core-fontWeights-medium
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-font-size: var(
+    --core-fontSize-1
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-medium-text-decoration: var(
+    --core-textDecoration-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-md-regular-text-decoration: var(
+    --core-textDecoration-underline
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-font-weight: var(
+    --core-fontWeights-regular
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-sm-regular-text-decoration: var(
+    --core-textDecoration-underline
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-font-style: normal;
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-font-family: "";
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-font-weight: var(
+    --core-fontWeights-bold
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-font-size: var(
+    --core-fontSize-2
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-line-height: var(
+    --core-lineHeights-100
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-letter-spacing: var(
+    --core-letterSpacing-none
+  );
+  --breakpoint-desktop-bolt-typography-productive-fluid-link-underlined-xs-bold-text-decoration: var(
+    --core-textDecoration-underline
+  );
+  --core-letterSpacing-2: 2%;
+  --core-paragraphIndent-0: 0px;
+  --core-paragraphSpacing-1: 2px;
+  --core-paragraphSpacing-2: 4px;
+  --core-paragraphSpacing-3: 8px;
+  --core-paragraphSpacing-4: 12px;
+  --core-paragraphSpacing-5: 16px;
+  --core-paragraphSpacing-6: 24px;
+  --core-paragraphSpacing-7: 32px;
+}
+.Default {
+  --color-button-primary-active: var(--mode-color-surface-foreground);
+  --color-button-primary-default: var(--mode-color-surface-background);
+  --color-button-primary-hover: var(--mode-color-surface-foreground);
+  --spacing-button-margins-horizontal: var(--breakpoint-margins-lg);
+  --spacing-button-margins-vertical: var(--breakpoint-margins-sm);
+}
