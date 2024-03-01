@@ -3,6 +3,9 @@
   "head": "specifyrc-json",
   "base": "main",
   "version": "2",
+    "filter": {
+    "types": ["color", "spacing", "dimension"]
+  },
   "rules": [
     {
       "name": "SDTF",
