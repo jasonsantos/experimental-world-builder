@@ -15,6 +15,13 @@
           }
         },
         {
+          "name": "to-tailwind",
+          "output": {
+            "type": "file",
+            "filePath": "output/tailwind.config.js"
+          }
+        },
+        {
           "name": "to-css-custom-properties",
           "output": {
             "type": "file",
